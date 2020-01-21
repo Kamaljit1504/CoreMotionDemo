@@ -13,6 +13,8 @@
 		9B10A5BE23D7A06900705265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B10A5BC23D7A06900705265 /* Main.storyboard */; };
 		9B10A5C023D7A06900705265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B10A5BF23D7A06900705265 /* Assets.xcassets */; };
 		9B10A5C323D7A06900705265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B10A5C123D7A06900705265 /* LaunchScreen.storyboard */; };
+		9B10A5CB23D7A0CB00705265 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B10A5CA23D7A0CB00705265 /* download.jpeg */; };
+		9B10A5CD23D7A65400705265 /* xyzvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10A5CC23D7A65400705265 /* xyzvc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9B10A5BF23D7A06900705265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B10A5C223D7A06900705265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B10A5C423D7A06900705265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B10A5CA23D7A0CB00705265 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		9B10A5CC23D7A65400705265 /* xyzvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xyzvc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				9B10A5B823D7A06900705265 /* SceneDelegate.swift */,
 				9B10A5BA23D7A06900705265 /* ViewController.swift */,
 				9B10A5BC23D7A06900705265 /* Main.storyboard */,
+				9B10A5CA23D7A0CB00705265 /* download.jpeg */,
 				9B10A5BF23D7A06900705265 /* Assets.xcassets */,
 				9B10A5C123D7A06900705265 /* LaunchScreen.storyboard */,
 				9B10A5C423D7A06900705265 /* Info.plist */,
+				9B10A5CC23D7A65400705265 /* xyzvc.swift */,
 			);
 			path = CoreMotionDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B10A5C323D7A06900705265 /* LaunchScreen.storyboard in Resources */,
+				9B10A5CB23D7A0CB00705265 /* download.jpeg in Resources */,
 				9B10A5C023D7A06900705265 /* Assets.xcassets in Resources */,
 				9B10A5BE23D7A06900705265 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				9B10A5BB23D7A06900705265 /* ViewController.swift in Sources */,
 				9B10A5B723D7A06900705265 /* AppDelegate.swift in Sources */,
+				9B10A5CD23D7A65400705265 /* xyzvc.swift in Sources */,
 				9B10A5B923D7A06900705265 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
